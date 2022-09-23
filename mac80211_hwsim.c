@@ -4462,7 +4462,7 @@ static int __init init_mac80211_hwsim(void)
 {
 	int i, err;
 
-	if (radios < 0 )
+	if (radios < 0)
 		return -EINVAL;
 
 	if (channels < 1)
